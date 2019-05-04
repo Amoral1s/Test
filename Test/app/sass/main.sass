@@ -1,0 +1,330 @@
+@font-face 
+	font-family: 'r4'
+	src: url('../fonts/Roboto-Medium.ttf') 
+	font-weight: bold
+	font-style: normal
+
+
+@font-face 
+	font-family: 'd4'
+	src: url('../fonts/DINPro-Medium.ttf') 
+	font-weight: normal
+	font-style: normal
+
+@font-face 
+	font-family: 'g4'
+	src: url('../fonts/Gilroy-Light.otf') 
+	font-weight: normal
+	font-style: normal
+
+
+
+html, div, span
+    padding: 0
+    margin: 0
+body
+	margin: 0
+	padding: 0
+	margin-top: -40px
+	background-color: #E5E5E5
+header
+	min-height: 500px
+	margin: 0
+	display: block
+	background-color: #fff
+	text-align: center
+	h1
+		font-family: 'd1', sans-serif
+		font-size: 48px
+		font-weight: 500
+		line-height: 54px
+		text-align: center
+		letter-spacing: -0.02em
+		padding-top: 170px
+	span
+		font-family: 'r4', sans-serif
+		font-weight: 400
+		font-size: 16px
+		line-height: 26px
+		color: #4A4556
+		
+		strong
+			color: #F47821
+	div
+		position: relative	
+		button
+			margin-top: 60px!important
+			display: block
+			margin: auto
+			margin-left: 45%
+			background-color: transparent
+			border: none
+			position: relative
+			font-size: 16px
+			line-height: 20px
+			letter-spacing: 0.02em
+			text-transform: uppercase
+			position: relative
+			outline: none
+			z-index: 1
+			color: #F47821
+			font-size: 30px
+			&:after
+				content: ''
+				position: absolute
+				background-color: #878787
+				border-radius: 50%
+				padding: 25px 25px 25px 25px
+				opacity: 0.5
+				top: -65%
+				left: -37%
+			&:hover
+				cursor: pointer
+		span
+			position: absolute
+			top: 0%
+			left: 46.5%
+			font-size: 16px
+			line-height: 20px
+			font-family: 'r4', sans-serif
+			font-weight: 800
+			letter-spacing: 0.02em
+			text-transform: uppercase
+			&:hover
+				cursor: pointer
+.content-top
+	min-height: 600px
+	background-image: url(../img/bg-top.png)
+	background-repeat: no-repeat
+	background-size: cover
+.content-mid
+	background-color: #F7F5FA
+	padding: 0
+	text-align: center
+	display: inline-block
+	width: 100%
+	position: relative
+	min-height: 400px
+	margin-bottom: 0
+	&-container
+		position: absolute
+		background: #FFFFFF
+		width: 65%
+		top: -150px
+		left: 19%
+		border: 1px solid #EDEDED
+		display: block
+		padding: 0
+		&-text
+			font-family: 'd3', sans-serif
+			font-size: 24px
+			line-height: 30px
+			letter-spacing: -0.03em
+			color: #222222
+			width: 49.6%
+			display: inline-block
+			height: 230px
+			text-align: left
+			margin: 0
+			&:nth-child(1)
+				border-right: 1px solid #EDEDED
+				border-bottom: 1px solid #EDEDED
+			&:nth-child(2)
+				border-bottom: 1px solid #EDEDED
+			&:nth-child(3)
+				border-right: 1px solid #EDEDED
+				border-bottom: 1px solid #EDEDED
+			&:nth-child(4)
+				border-bottom: 1px solid #EDEDED
+			h3
+				font-family: 'd4',sans-serif
+				font-size: 12px
+				line-height: 19px
+				letter-spacing: 0.04em
+				text-transform: uppercase
+				color: #F47821
+				margin-top: 70px
+				margin-left: 50px
+			div
+				padding-left: 50px
+				padding-right: 120px
+.content
+	&-letter
+		background-color: #FFFFFF
+		margin-top: -50px
+		&-box
+			width: 50%
+			margin: auto
+			h2
+				padding-top: 100px
+				font-family: 'd4', sans-serif
+				font-size: 48px
+				line-height: 60px
+				text-align: left
+				letter-spacing: -0.02em
+				color: #222222
+				margin-bottom: 20px
+			p
+				font-family: 'r4', sans-serif
+				font-style: normal
+				font-weight: 400 
+				font-size: 16px
+				line-height: 26px
+				color: #4E4D53
+				&:last-child
+					padding-bottom: 100px
+.features
+	width: 80%
+	margin: auto
+	padding-bottom: 150px
+	h2
+		text-align: center
+		font-family: 'd4', sans-serif
+		font-size: 40px
+		line-height: 50px
+		font-weight: 400
+		text-align: center
+		letter-spacing: -0.02em
+		color: #000000
+		padding-top: 60px
+	&-inner
+		display: inline-block
+		width: 33%
+	
+		img
+			margin-bottom: 20px
+			padding-left: 30px
+			padding-right: 30px
+			margin-top: 30px
+		h3
+			font-family: 'd4', sans-serif
+			font-size: 20px
+			line-height: 25px
+			color: #000000
+			padding-left: 30px
+			padding-right: 30px
+			position: relative
+			padding-bottom: 30px
+			&:after
+				position: absolute
+				content: ''
+				width: 24px
+				height: 2px
+				bottom: 0
+				left: 30px
+				background-color: #F47821
+		p
+			font-family: 'r4', sans-serif
+			font-style: normal
+			font-weight: normal
+			font-size: 16px
+			line-height: 26px
+			color: #4E4D53
+			padding-left: 30px
+			padding-right: 30px
+				
+footer
+	background-color: black
+	min-height: 1000px
+	color: #fff
+.footer
+	width: 35%
+	margin: auto
+	text-align: left
+	font-family: 'd4', sans-serif
+	h3
+		text-align: center
+		padding-top: 100px
+		font-size: 40px
+		line-height: 52px
+		letter-spacing: -0.02em
+		font-weight: 400
+		padding-bottom: 40px
+	div
+		font-size: 15px
+		line-height: 25px
+		letter-spacing: -0.01em
+		width: 90%
+		position: relative
+		&:nth-child(1)
+			&:before
+				position: absolute
+				content: '1'
+				left: -70px
+				top: -15px
+				color: #F47821
+				font-size: 20px
+				border: 1px solid #F7F8FA
+				border-radius: 50%
+				padding: 15px 22px 15px 22px
+		&:nth-child(3)
+			&:before
+				position: absolute
+				content: '2'
+				left: -70px
+				top: -15px
+				color: #F47821
+				font-size: 20px
+				border: 1px solid #F7F8FA
+				border-radius: 50%
+				padding: 15px 22px 15px 22px
+		&:nth-child(5)
+			&:before
+				position: absolute
+				content: '3'
+				left: -70px
+				top: -15px
+				color: #F47821
+				font-size: 20px
+				border: 1px solid #F7F8FA
+				border-radius: 50%
+				padding: 15px 22px 15px 22px
+		&:nth-child(7)
+			&:before
+				position: absolute
+				content: '4'
+				left: -70px
+				top: -15px
+				color: #F47821
+				font-size: 20px
+				border: 1px solid #F7F8FA
+				border-radius: 50%
+				padding: 15px 22px 15px 22px
+	input
+		margin-top: 20px
+		margin-bottom: 40px
+		width: 100%
+		padding: 20px	0	20px	10px
+		font-size: 24px
+		line-height: 35px
+		letter-spacing: -0.01em
+		color: #FFF
+		background-color: transparent
+		border: none
+		border-bottom: 1px solid #F7F8FA
+	textarea
+		padding: 20px	0	20px	10px
+		width: 100%
+		font-size: 24px
+		line-height: 35px
+		letter-spacing: -0.01em
+		color: #FFF
+		background-color: transparent
+		border: none
+		border-bottom: 1px solid #F7F8FA
+	button
+		width: 100%
+		margin-top: 50px
+		padding: 20px 0 20px 0
+		background-color: #fff
+		border-radius: 25px
+		font-size: 14px
+		line-height: 17px
+		letter-spacing: 0.04em
+		text-transform: uppercase
+		color: #F47821
+		border: none
+		&:hover
+			cursor: pointer
+
+@import "media"
